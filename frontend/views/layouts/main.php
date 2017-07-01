@@ -107,9 +107,9 @@ AppAsset::register($this);
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+    </div>
+  </div>
+</div>
 
 
 <?php $this->endBody() ?>
@@ -122,9 +122,9 @@ AppAsset::register($this);
             'src': img,
 
         })
-        txtProduct = $("#txtProduct_"+id).text();  // txtPro id for Product name
-       $("#productName").text(txtProduct);   // Showing Product name in Add to Cart
-       $("#txtprice").text($("#txtPrice_"+id).text());  // Showing Product price in Add to cart
+        txtProduct = $("#txtProduct_"+id).text();  // txtProduct Product name ki id show karay ga
+       $("#productName").text(txtProduct);   // Product Name Show karay ga Add to Cart mai
+       $("#txtprice").text($("#txtPrice_"+id).text());  // Price show karay ga  Add to cart mai
        $('#shoppingcart').modal(); 
 
       

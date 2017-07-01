@@ -7,8 +7,6 @@ use yii\Helpers\Html;
 
 
 <header id="header">
-		<div class="header_top">
-		</div>
 		
 		<div class="header-middle">
 			<div class="container">
@@ -44,20 +42,15 @@ use yii\Helpers\Html;
                                    )
                                   . Html::endForm();
 
-
-
-
-
-
 									} ?>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div><!--/header-middle-->
+		</div>
 	
-		<div class="header-bottom"><!--header-bottom-->
+		<div class="header-bottom">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-9">
@@ -85,5 +78,5 @@ use yii\Helpers\Html;
 					</div>
 				</div>
 			</div>
-		</div><!--/header-bottom-->
-	</header><!--/header-->
+		</div>
+	</header>
